@@ -15,6 +15,7 @@ ngOnInit(): void {
     'lastName' : new FormControl() ,
     'email': new FormControl() ,
     'password' : new FormControl() ,
+    'phone' : new FormControl()
   })
 }
 signup(data : FormGroup){
