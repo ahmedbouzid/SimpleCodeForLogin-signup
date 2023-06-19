@@ -1,5 +1,6 @@
 <div class="container">
-  <form [formGroup]="loginForm" (ngSubmit)="login(data)">
+<div class="card mt-5">
+  <form [formGroup]="loginForm" (ngSubmit)="login(loginForm)">
 
     <h3>Login</h3>
     <div class="form-group">
@@ -10,8 +11,11 @@
       <label for="">Password</label>
       <input type="password" formControlName="password" class="form-control" placeholder="enter yout password">
     </div>
-    <span><a routerLink="signup"> Create New Account</a></span>
+    <span><a routerLink="/signup"> Create New Account</a></span>
     <br>
-    <button type="button" class="btn btn-primary"> Login</button>
+    <button type="submit" class="btn btn-primary"> Login</button>
   </form>
 </div>
+</div>
+<router-outlet></router-outlet>
+
