@@ -19,5 +19,6 @@ loginForm !: FormGroup |any ;
   login(data :FormGroup|any) {
     console.log(this.loginForm.value);
 
+
   }
 }
