@@ -1,0 +1,32 @@
+mat-toolbar {
+  background-color: rgb(33, 49, 178);
+  color: rgb(247, 244, 244);
+  height: 100px;
+}
+mat-drawer {
+  margin: 1rem;
+  width: 10rem ;
+  border-right: none;
+  background-color: black;
+  color: black;
+  border-radius: .8rem;
+  text-align: center;
+}
+.content {
+  height: calc(100vh - 100px);
+  background-color: red;
+  width: 100%;
+  border-radius: .8rem;
+  margin-left: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: azure;
+}
+mat-drawer-container {
+  height: calc(100vh - 100px);
+  background-color: black ;
+  width: 100%;
+}
